@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Copse&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One&display=swap');
+
+body {
+    background-color: #216E3F;
+    background-image: linear-gradient(#216E3F, #5EA449);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title, .subtitle {
+    font-family: 'Rammetto One', cursive;
+    text-transform: uppercase;
+    color: #869DA8;
+    margin-bottom: 0.5em;
+}
+
+.title {
+    font-size: 3.5em;
+}
+
+.subtitle {
+    font-size: 2em;
+}
+
+.text {
+    font-family: 'Copse', serif;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    margin: 0.75em 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.info {
+    background-color: #272E69;
+    margin: 2em 0;
+    padding: 1.25em;
+}
