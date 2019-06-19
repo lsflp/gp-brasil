@@ -10,15 +10,23 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="content">
         
-        <h1>Logo</h1>
+        <img src="logo.svg" alt="Logo da competição" class="logo">
 
-        <h1>Menu</h1>
+        <ul class='menu'>
+            <li class="menu-item"><a href="#cartaz">Cartaz</a></li>
+            <li class="menu-item"><a href="#mapa">Mapa</a></li>
+            <li class="menu-item"><a href="#historia">História</a></li>
+            <li class="menu-item"><a href="#chegar">Como chegar</a></li>
+            <li class="menu-item"><a href="#contagem">Contagem regressiva</a></li>
+            <li class="menu-item"><a href="#ingressos">Ingressos</a></li>
+            <li class="menu-item"><a href="#noticias">Últimas notícias</a></li>
+        </ul>
 
         <div class="info">
-            <h1 class="title">Cartaz</h1>
-            <img src="cartaz.png" alt="Cartaz do evento">
+            <h1 class="title" id="cartaz">Cartaz</h1>
+            <img src="cartaz.png" alt="Cartaz do evento" class="poster">
             <p class="text">O cartaz do evento possui vários elementos que remetem à 
                 história da sua divulgação. As únicas cores utilizadas são verde, amarelo
                 e azul, que são as cores nacionais, não por acaso.</p>
@@ -34,8 +42,8 @@
         
         
         <div class="info">
-            <h1 class="title">Mapa</h1>
-            <img src="mapa.png" alt="Mapa do circuito">
+            <h1 class="title" id="mapa">Mapa</h1>
+            <img src="mapa.png" alt="Mapa do circuito" class="map">
             <p class="text">A pista do circuito oficial tem um total de 4,309 km de 
                 extensão. Como as provas têm em torno de 70 voltas, o percurso total 
                 de um carro fica em torno dos 300 km.</p>
@@ -51,7 +59,7 @@
 
         
         <div class="info">
-            <h1 class="title">História</h1>
+            <h1 class="title" id="historia">História</h1>
             <p class="text">O GP do Brasil aconteceu pela primeira vez em 1972, e foi 
                 incorporada ao calendário anual da F1 a partir do ano seguinte.
                 A temporada de 1978 e as entre 1981 e 1989 aconteceram no Autódromo de 
@@ -65,7 +73,7 @@
         </div>    
         
         <div class="info">
-            <h1 class="title">Como chegar</h1>
+            <h1 class="title" id="chegar">Como chegar</h1>
             <p class="text">O Autódromo de Interlagos localiza-se na região sul de São 
                 Paulo e o endereço oficial é Av. Senador Teotônio Vilela, 261, no bairro 
                 de Interlagos – São Paulo – SP, CEP 04801-010.</p>
@@ -76,7 +84,7 @@
                     alternativa para quem quer fugir do trânsito.</p>
                 <p class="text">Outra opção é descer na Estação Jurubatuba e pegar um 
                     ônibus no Terminal. Veja as opções de linha no site da 
-                    <a href="http://www.sptrans.com.br/">SPTrans.</a> Entrada pelo 
+                    <a href="http://www.sptrans.com.br/">SPTrans</a>. Entrada pelo 
                     Portão 7.</p>
                 
             <h2 class="subtitle">Bicicleta</h2>
@@ -110,13 +118,13 @@
         </div>
         
         <div class="info">
-            <h1 class="title">Contagem regressiva</h1>
+            <h1 class="title" id="contagem">Contagem regressiva</h1>
             <p class="text">Faltam 143 dias, 20 horas, 3 minutos e 20 segundos para o
                 evento.</p>
         </div>
 
         <div class="info">
-            <h1 class="title">Ingressos</h1>
+            <h1 class="title" id="ingressos">Ingressos</h1>
             <p class="text">O evento tem duração de 3 dias (sexta, sábado e domingo). 
                 Neste ano, ele vai acontecer nos dias 15, 16 e 17 de novembro, sempre 
                 iniciando às 14h10, horário de Brasília.</p>
@@ -128,19 +136,24 @@
 
         
         <div class="info">
-            <h1 class="title">Notícias</h1>
-            <a href="https://www.gpbrasil.com.br/pt-br/noticia/franceses-empolgados-com-a-corrida-em-paul-ri">
-                Coluna do Castilho - Franceses empolgados com a corrida em Paul Ricard</a>
-            <a href="https://www.gpbrasil.com.br/pt-br/noticia/comissarios-desportivos-tiram-vitoria-da-ferr">
-                Comissários desportivos tiram vitória da Ferrari no Canadá</a>
-            <a href="https://www.gpbrasil.com.br/pt-br/noticia/hamilton-atras-do-recorde-ferrari-atras-da-re">
-                Hamilton atrás do recorde; Ferrari atrás da redenção</a>
-        </div>
-        
-        <div class="footer">
-            <p class="text">GP Brasil de Fórmula 1 - 1972-2019</p>
+            <h1 class="title" id="noticias">Últimas Notícias</h1>
+            <ul>
+                <li class="text">Coluna do Castilho - 
+                    <a href="https://www.gpbrasil.com.br/pt-br/noticia/franceses-empolgados-com-a-corrida-em-paul-ri">
+                    Franceses empolgados com a corrida em Paul Ricard</a></li>
+                <li class="text">Coluna do Castilho - 
+                    <a href="https://www.gpbrasil.com.br/pt-br/noticia/comissarios-desportivos-tiram-vitoria-da-ferr">
+                    Comissários desportivos tiram vitória da Ferrari no Canadá</a>
+                <li class="text">Coluna do Castilho -
+                    <a href="https://www.gpbrasil.com.br/pt-br/noticia/hamilton-atras-do-recorde-ferrari-atras-da-re">
+                    Hamilton atrás do recorde; Ferrari atrás da redenção</a> 
+            </ul>  
         </div>
                 
+    </div>
+
+    <div class="footer">
+        <p class="text">GP Brasil de Fórmula 1 - 1972-2019</p>
     </div>
     
 </body>
