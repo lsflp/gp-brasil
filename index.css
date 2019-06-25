@@ -1,11 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+
 @font-face {
     font-family: Phosphate;
     src: url('Phosphate-Solid.ttf');
-}
-
-@font-face {
-    font-family: Palatino;
-    src: url('unicode.palatino.ttf');
 }
 
 body {
@@ -25,7 +22,7 @@ body {
 }
 
 .title, .subtitle, .menu {
-    font-family: Phosphate, Arial, Helvetica, sans-serif;
+    font-family: Phosphate, Arial, sans-serif;
     text-transform: uppercase;
     color: rgb(134, 157, 168);
     margin-bottom: 0.5em;
@@ -42,7 +39,7 @@ body {
 }
 
 .text {
-    font-family: Palatino, serif;
+    font-family: 'Merriweather Sans', sans-serif;
     color: #FFFFFF;
     font-size: 1.25em;
     margin: 0.75em 0;
