@@ -1,48 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Copse&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Rammetto+One&display=swap');
+@font-face {
+    font-family: Phosphate;
+    src: url('Phosphate-Solid.ttf');
+}
+
+@font-face {
+    font-family: Palatino;
+    src: url('unicode.palatino.ttf');
+}
 
 body {
-    background-color: rgb(33, 110, 63, 0.9);
-    background: linear-gradient(rgb(33, 110, 63, 0.9), rgb(93, 161, 72, 0.9)), url(noise.svg);
+    background-color: rgb(33, 110, 63, 0.6);
+    background: linear-gradient(rgb(33, 110, 63, 0.6), rgba(93, 161, 72, 0.6)), url(noise.svg);
     
 }
 
-.content {
-    width: 45%;
+.header, .content {
+    width: 60%;
     margin: auto;
 }
 
+.content {
+    margin-top: 10em;
+    clear: both;
+}
+
 .title, .subtitle, .menu {
-    font-family: 'Rammetto One', cursive;
+    font-family: Phosphate, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    color: #869DA8;
+    color: rgb(134, 157, 168);
     margin-bottom: 0.5em;
 }
 
 .title {
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 .subtitle {
     margin-top: 1em;
-    font-size: 2em;
-    transform: skewX(-15deg);
+    font-size: 2.5em;
+    transform: skewX(-8deg);
 }
 
 .text {
-    font-family: 'Copse', serif;
+    font-family: Palatino, serif;
     color: #FFFFFF;
     font-size: 1.25em;
     margin: 0.75em 0;
-    text-justify: inter-word;
 }
 
 .info {
-    background-color: #272E69;
+    background-color: rgb(39, 46, 105);
     margin: 2em 0;
     padding: 1.25em;
-    text-align: justify;
     overflow: hidden;
+    clear: both;
 }
 
 .poster, .map {
@@ -52,17 +63,13 @@ body {
     width: 50%;
 }
 
-.info {
-    clear: both;
-}
-
 .logo {
     margin-top: 0.5em;
 }
 
 a {
     text-decoration: none;
-    color: #888888;
+    color: rgb(134, 157, 168);
 }
 
 .footer {
@@ -71,14 +78,20 @@ a {
 }
 
 .menu {
-    margin-top: 1em;
+    margin: 1em;
 }
 
 .menu-item {
-    background-color: rgb(233, 181, 71);
+    background-color: rgb(39, 46, 105);
     text-align: center;
-    width: 50%;
-    margin: 0.5em auto;
-    transform: skewX(-15deg);
+    width: 45%;
+    margin: 0.1em 0.5em;
+    transform: skewX(-8deg);
     overflow: hidden;
+    font-size: 2em;
+    float: left;
+}
+
+.menu-item p {
+    transform: skewX(8deg);
 }
