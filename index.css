@@ -93,12 +93,24 @@ a {
     float: left;
 }
 
+.menu-item:hover, .menu-item p a:hover {
+    opacity: 0.75;
+}
+
+.menu-item:hover {
+    background-color: rgb(8, 13, 78);
+}
+
 .menu-item p {
     transform: skewX(8deg);
 }
 
 .menu-item p a {
     display: block;
+}
+
+.menu-item p a:hover {
+    color: rgb(236, 187, 96);
 }
 
 .footer {
