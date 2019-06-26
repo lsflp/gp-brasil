@@ -34,7 +34,7 @@ body {
     clear: both;
 }
 
-.title, .subtitle, .menu {
+.title, .subtitle, .menu, .subtitle-2 {
     font-family: Phosphate, Arial, sans-serif;
     text-transform: uppercase;
     color: rgb(134, 157, 168);
@@ -49,6 +49,10 @@ body {
     margin-top: 1em;
     font-size: 2.5em;
     transform: skewX(-8deg);
+}
+
+.subtitle-2 {
+    font-size: 2em;
 }
 
 .text {
@@ -69,7 +73,7 @@ body {
     clear: both;
 }
 
-.poster, .map {
+.poster, .map, .tickets {
     float: left;
     margin-right: 2em;
     max-width: 24em;
@@ -137,6 +141,19 @@ a {
 
 .footer-text {
     color: rgb(0, 0, 0);
+}
+
+.prices {
+    width: 80%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 4px solid rgb(247, 240, 244);
+}
+
+th, td {
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
