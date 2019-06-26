@@ -11,6 +11,19 @@ body {
     
 }
 
+.top-frame {
+    height: 1.25em;
+    background-image: url(moldura.png);
+    background-size: 2.5em;
+    background-color: rgb(236, 187, 96);
+}
+
+.logo {
+    max-width: 100%;
+    width: auto;
+    margin: 7.5em auto;
+}
+
 .header, .content {
     width: 60%;
     margin: auto;
@@ -40,7 +53,7 @@ body {
 
 .text {
     font-family: 'Merriweather Sans', sans-serif;
-    color: #FFFFFF;
+    color: rgb(247, 240, 244);
     font-size: 1.25em;
     margin: 0.75em 0;
 }
@@ -58,10 +71,6 @@ body {
     margin-right: 1em;
     max-width: 24em;
     width: 50%;
-}
-
-.logo {
-    margin-top: 0.5em;
 }
 
 a {
@@ -88,6 +97,10 @@ a {
     transform: skewX(8deg);
 }
 
+.menu-item p a {
+    display: block;
+}
+
 .footer {
     margin: auto;
     text-align: center;
@@ -109,4 +122,20 @@ a {
 
 .footer-text {
     color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1024px) {
+
+    .menu {
+        overflow: hidden;
+    }
+
+    .menu-item {
+        width: 40%;
+        margin: 0.1em 0.83em;
+    }
+
+    .content {
+        margin-top: 0;
+    }
 }
